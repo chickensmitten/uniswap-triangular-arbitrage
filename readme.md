@@ -1,7 +1,6 @@
 # Uniswap Triangular Arbitrage Javascript
 ## Intro
 - Refer to this for more information [poloniex triangular arbitrage](https://github.com/chickensmitten/poloniex-triangular-arbitrage)
-
 - EtherJS is easier to convert big numbers and easier to interact with ABI
 - Refer to Lesson 82 onwards for JS implementation with EtherJS
 
