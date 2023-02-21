@@ -36,7 +36,7 @@ function calculateArbitrage(amountIn, amountOut, surfaceObj) {
 async function getPrice(factory, amtIn, tradeDirection) {
 
   // Get Provider
-  const provider = new ethers.providers.JsonRpcProvider("https://mainnet.infura.io/v3/29e9ed2bd5cb4248809bf37f2303259e");
+  const provider = new ethers.providers.JsonRpcProvider("https://mainnet.infura.io/v3/<ENDPOINTS>");
   const ABI = [
     'function token0() external view returns (address)',
     'function token1() external view returns (address)',
